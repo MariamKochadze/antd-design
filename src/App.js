@@ -5,6 +5,7 @@ import Home from './components/home/home';
 import Books from './components/books/Books';
 import ContactUs from './components/contactUs/contactUs'
 import BookMenu from './components/menu/Menu'
+import Footer from './components/footer/footer'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                     <Route path='books' element={<Books/>}/>
                 </Routes>
             </Router>
+            <Footer/>
         </div>
     );
 }

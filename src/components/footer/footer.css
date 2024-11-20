@@ -1,0 +1,11 @@
+.divContainer{
+    background-color: #665f55;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    color:white;
+    font-size: 0.9rem;
+    margin-top: auto;
+}

@@ -1,0 +1,29 @@
+.homeContainer{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bookImg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.headerContainer{
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding-top: 20vh;
+    font-size: 3rem;
+}
+
+p, h1{
+    font-family: Inter;
+    color:#403f3d;
+}
+
