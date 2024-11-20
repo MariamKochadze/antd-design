@@ -1,0 +1,8 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e1d4c9;
+    border: none;
+    text-decoration: none;
+
+}

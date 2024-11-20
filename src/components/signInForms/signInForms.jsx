@@ -1,4 +1,5 @@
-import {Form,Button,Input,Checkbox} from 'antd'
+import {Form,Button,Input,Checkbox} from 'antd';
+
 
 const Forms = () => {
 
@@ -7,6 +8,8 @@ const Forms = () => {
     }
 
     return(
+        <>
+        
         <div
         style={{
             display:'flex',
@@ -72,6 +75,7 @@ const Forms = () => {
             </Form>
         </div>
         </div>
+        </>
     )
 }
 
