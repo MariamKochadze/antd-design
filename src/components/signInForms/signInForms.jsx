@@ -1,10 +1,11 @@
 import {Form,Button,Input,Checkbox} from 'antd';
-
+import {useNavigate} from 'react-router-dom';
 
 const Forms = () => {
+   const navigate= useNavigate()
 
-    const onFinish = (values) => {
-       console.log(values)
+    const onFinish = () => {
+       navigate('/')
     }
 
     return(
@@ -33,6 +34,16 @@ const Forms = () => {
              wrapperCol={{span:16}}
             onFinish={onFinish}
             >
+            <Form.Item
+            label='Username'
+            name='username'
+            rules={
+                [{
+                    required:true,
+                    message:'please enter your username'
+                }]
+            }
+            />
                 <Form.Item 
                 label='Email' 
                 name='email' 
